@@ -1,0 +1,27 @@
+apply plugin: 'checkstyle'
+
+def qualityConfigFolder = "${project.rootDir}/quality/"
+
+checkstyle {
+    toolVersion = '7.0'
+}
+
+task checkstyle(type: Checkstyle) {
+    ignoreFailures = false
+    showViolations = true
+
+    source 'src/main'
+    include '**/*.java'
+    exclude '**/gen/**'
+    exclude '**/R.java'
+    exclude '**/BuildConfig.java'
+
+    reports {
+        html.stylesheet = resources.text.fromFile(qualityConfigFolder + "checkstyle-noframes-severity-sorted.xsl")
+    }
+
+    classpath = files()
+    configFile file(qualityConfigFolder + "checkstyle.xml")
+}
+
+check.dependsOn 'checkstyle'
