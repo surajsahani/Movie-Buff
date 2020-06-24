@@ -65,7 +65,7 @@ This will run local unit tests on the JVM, instrumented tests on connected devic
 License
 -------
 
-    Copyright 2016 Maksim Moiseikin
+    Copyright 2020 Suraj Sahani
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
