@@ -20,8 +20,6 @@ A simple Android app, that helps user to discover movies.
 
 **Download:**
 
-You can download APK [on releases page][5].
-
 Screenshots
 -----------
 
