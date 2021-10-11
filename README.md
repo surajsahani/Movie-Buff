@@ -31,9 +31,6 @@ Screenshots
 <img width="90%" src=".github/screen4.png" />
 
 
-
-### Requirements
-
 ### Testing
 
 This project integrates a combination of [local unit tests][2], [instrumented tests][3] and [code analysis tools][4].
