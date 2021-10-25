@@ -14,8 +14,6 @@ A simple Android app, that helps user to discover movies.
 - Material design
 - UI optimized for phone and tablet
 
-**Download:**
-
 Screenshots
 -----------
 
